@@ -1,0 +1,4 @@
+.email-address-input::placeholder {
+  font-size: 20px;
+  color: white;
+}

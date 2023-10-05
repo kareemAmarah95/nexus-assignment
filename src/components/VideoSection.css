@@ -1,0 +1,31 @@
+video:-webkit-full-page-media {
+  margin: 0 !important;
+}
+.background-video {
+  width: 100vw;
+  height: 100vh;
+}
+
+video {
+  /* height: 80vh; */
+  /* width: 50%; */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .video-section {
+    flex-wrap: wrap;
+  }
+  .video-text {
+    padding: 20px;
+  }
+  .paragraph-video-section {
+    width: 98% !important;
+  }
+
+  .video-button {
+    width: 100%;
+  }
+}

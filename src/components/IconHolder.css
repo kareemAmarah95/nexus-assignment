@@ -1,0 +1,17 @@
+.icon-holder {
+  position: fixed;
+  right: 40px;
+  bottom: 40px;
+  background-color: #333;
+  color: #fffef2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  z-index: 10;
+  outline-style: solid;
+  outline-color: #fff;
+  outline-width: 1px;
+}

@@ -1,0 +1,10 @@
+.my-navbar {
+  background-color: #fffef2;
+}
+
+/* .my-links a {
+  color: #333333 !important;
+} */
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+}

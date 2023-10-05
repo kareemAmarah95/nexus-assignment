@@ -1,0 +1,9 @@
+.my-header-two {
+  background-color: #252525;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .my-header-two {
+    padding: 30px;
+  }
+}

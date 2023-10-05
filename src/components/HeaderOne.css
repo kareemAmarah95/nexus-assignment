@@ -1,0 +1,9 @@
+.my-header-one {
+  background-color: #c2c2af;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .my-header-one {
+    padding: 30px;
+  }
+}

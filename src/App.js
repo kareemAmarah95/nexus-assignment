@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import HeaderOne from "./components/HeaderOne";
+import HeaderTwo from "./components/HeaderTwo";
+import CarouselSlider from "./components/CarouselSlider";
+import VideoSection from "./components/VideoSection";
+import IconHolder from "./components/IconHolder";
+import GridSection from "./components/GridSection";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <IconHolder />
+
+      <HeaderOne />
+      <HeaderTwo />
+      <Navbar />
+      <CarouselSlider />
+      {/* video section the athanium  */}
+      <VideoSection />
+      {/* grid containing 3 rows  */}
+      <GridSection />
+      <Footer />
     </div>
   );
 }
